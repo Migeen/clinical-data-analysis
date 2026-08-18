@@ -1,0 +1,506 @@
+patient_id,age,sex,treatment_group,baseline_biomarker,week12_biomarker,response,adverse_event
+P0001,54.0,Female,Placebo,83.45,67.47,No,No
+P0002,46.0,Female,Drug A,67.71,56.11,Yes,No
+P0003,56.0,Male,Placebo,105.83,113.22,Yes,No
+P0004,66.0,Female,Drug A,137.39,113.54,No,No
+P0005,45.0,Female,Drug A,99.91,73.31,Yes,No
+P0006,45.0,Male,Placebo,112.58,94.5,Yes,No
+P0007,67.0,Male,Drug A,101.23,78.36,No,No
+P0008,57.0,Male,Placebo,98.52,93.75,Yes,No
+P0009,42.0,Male,Placebo,113.79,107.97,Yes,No
+P0010,55.0,Male,Placebo,95.65,99.67,Yes,No
+P0011,42.0,Male,Drug A,104.01,89.77,Yes,No
+P0012,42.0,Male,Drug A,104.83,80.04,Yes,No
+P0013,51.0,Male,Placebo,89.98,90.5,No,No
+P0014,25.0,Female,Placebo,114.88,94.9,Yes,No
+P0015,27.0,Male,Placebo,97.38,83.54,No,No
+P0016,41.0,Female,Drug A,88.66,48.52,Yes,No
+P0017,36.0,Male,Placebo,108.05,118.01,Yes,No
+P0018,52.0,Female,Placebo,86.52,107.62,No,Yes
+P0019,37.0,Male,Placebo,100.42,96.49,Yes,No
+P0020,31.0,Male,Drug A,99.86,79.95,Yes,Yes
+P0021,66.0,Female,Placebo,116.29,111.64,Yes,No
+P0022,45.0,Female,Placebo,107.12,106.0,Yes,No
+P0023,49.0,Female,Placebo,99.62,86.41,Yes,No
+P0024,31.0,Male,Drug A,112.27,88.74,No,No
+P0025,41.0,Male,Placebo,120.85,113.15,Yes,No
+P0026,49.0,Female,Placebo,108.37,103.35,Yes,No
+P0027,34.0,Female,Drug A,100.16,72.47,Yes,No
+P0028,53.0,Female,Placebo,80.32,74.54,No,Yes
+P0029,41.0,Female,Placebo,84.02,82.41,No,No
+P0030,44.0,Male,Drug A,95.42,63.23,Yes,No
+P0031,41.0,Female,Drug A,90.86,63.75,No,No
+P0032,70.0,Male,Placebo,97.2,76.2,No,No
+P0033,48.0,Male,Drug A,100.85,74.54,Yes,No
+P0034,35.0,Male,Placebo,107.95,105.74,No,No
+P0035,58.0,Female,Drug A,98.94,71.69,No,No
+P0036,33.0,Male,Placebo,107.3,114.04,No,No
+P0037,51.0,Male,Drug A,100.97,77.66,No,No
+P0038,24.0,Female,Placebo,70.37,67.06,Yes,No
+P0039,32.0,Male,Placebo,85.91,64.99,Yes,No
+P0040,50.0,Female,Placebo,97.84,83.97,Yes,No
+P0041,57.0,Male,Placebo,81.85,78.81,No,No
+P0042,50.0,Female,Drug A,109.0,84.19,Yes,No
+P0043,47.0,Female,Placebo,122.96,110.02,Yes,No
+P0044,44.0,Male,Drug A,118.28,95.61,No,No
+P0045,30.0,Male,Drug A,96.8,81.33,Yes,No
+P0046,39.0,Male,Drug A,122.36,100.23,No,No
+P0047,42.0,Male,Drug A,102.23,71.11,Yes,No
+P0048,61.0,Female,Placebo,94.94,90.69,Yes,Yes
+P0049,52.0,Male,Placebo,90.8,85.81,Yes,No
+P0050,27.0,Female,Drug A,95.46,71.55,No,No
+P0051,52.0,Male,Drug A,94.18,68.85,Yes,No
+P0052,43.0,Female,Placebo,102.56,85.96,Yes,Yes
+P0053,40.0,Female,Drug A,102.41,76.12,No,No
+P0054,55.0,Female,Drug A,100.05,56.23,Yes,No
+P0055,60.0,Male,Drug A,106.55,,Yes,No
+P0056,59.0,Male,Placebo,117.86,102.6,No,No
+P0057,38.0,Male,Placebo,114.24,82.71,Yes,No
+P0058,44.0,Female,Drug A,77.73,42.45,Yes,No
+P0059,52.0,Female,Drug A,61.69,49.35,Yes,Yes
+P0060,60.0,Female,Placebo,114.01,95.38,No,Yes
+P0061,42.0,Male,Placebo,79.5,76.43,Yes,No
+P0062,46.0,Female,Drug A,96.63,75.9,Yes,Yes
+P0063,35.0,Female,Placebo,82.45,83.05,Yes,No
+P0064,34.0,Male,Drug A,72.97,65.72,Yes,No
+P0065,58.0,Male,Drug A,108.12,71.18,Yes,No
+P0066,64.0,Female,Placebo,111.39,87.73,Yes,No
+P0067,47.0,Female,Drug A,91.35,76.36,Yes,No
+P0068,60.0,Female,Placebo,61.13,53.74,Yes,No
+P0069,52.0,Male,Drug A,91.81,80.73,No,No
+P0070,40.0,Female,Drug A,105.88,78.38,Yes,Yes
+P0071,52.0,Male,Placebo,77.82,50.06,No,No
+P0072,66.0,Male,Drug A,102.75,80.35,No,No
+P0073,48.0,Male,Placebo,99.77,79.48,No,No
+P0074,67.0,Female,Drug A,108.69,91.8,Yes,No
+P0075,18.0,Female,Drug A,101.79,84.72,Yes,Yes
+P0076,58.0,Female,Drug A,85.4,42.91,No,Yes
+P0077,49.0,Male,Placebo,117.95,101.66,Yes,No
+P0078,44.0,Female,Drug A,97.62,56.0,Yes,No
+P0079,49.0,Male,Placebo,99.59,84.23,No,No
+P0080,24.0,Female,Drug A,86.0,72.27,No,No
+P0081,45.0,Male,Placebo,93.35,72.18,No,No
+P0082,52.0,Male,Drug A,86.73,57.62,Yes,No
+P0083,66.0,Male,Placebo,97.41,85.85,No,No
+P0084,42.0,Male,Placebo,125.68,110.2,Yes,No
+P0085,38.0,Female,Placebo,79.42,71.02,Yes,No
+P0086,42.0,Female,Placebo,75.8,70.82,No,No
+P0087,59.0,Male,Placebo,122.07,123.24,Yes,No
+P0088,52.0,Female,Placebo,96.86,101.34,Yes,No
+P0089,42.0,Male,Drug A,89.96,59.34,Yes,No
+P0090,54.0,Female,Drug A,115.6,88.51,No,No
+P0091,49.0,Female,Placebo,90.92,76.79,No,No
+P0092,,Female,Placebo,127.39,119.99,No,Yes
+P0093,40.0,Male,Placebo,110.17,90.53,No,No
+P0094,44.0,Female,Drug A,92.68,83.84,Yes,No
+P0095,43.0,Female,Drug A,132.36,95.02,Yes,No
+P0096,30.0,Male,Drug A,90.91,59.99,Yes,No
+P0097,52.0,Male,Placebo,111.13,101.46,Yes,No
+P0098,51.0,Female,Drug A,104.49,82.29,Yes,Yes
+P0099,48.0,Female,Drug A,119.53,86.43,No,No
+P0100,45.0,Female,Drug A,123.42,102.66,Yes,No
+P0101,31.0,Female,Drug A,100.48,70.74,Yes,No
+P0102,43.0,Female,Placebo,88.7,89.05,Yes,No
+P0103,44.0,Male,Drug A,106.9,87.36,Yes,No
+P0104,38.0,Male,Placebo,89.83,70.53,No,No
+P0105,46.0,Male,Drug A,130.2,100.84,Yes,Yes
+P0106,53.0,Female,Drug A,102.05,75.95,Yes,No
+P0107,71.0,Male,Drug A,94.52,68.64,No,No
+P0108,,Female,Drug A,102.77,74.07,Yes,No
+P0109,51.0,Female,Drug A,79.79,52.2,Yes,Yes
+P0110,47.0,Female,Drug A,85.43,76.42,Yes,No
+P0111,25.0,Male,Placebo,118.01,110.08,No,No
+P0112,48.0,Female,Drug A,90.15,62.2,No,No
+P0113,49.0,Male,Placebo,84.3,67.08,No,Yes
+P0114,78.0,Female,Placebo,108.05,99.82,Yes,Yes
+P0115,46.0,Male,Placebo,117.79,102.32,No,No
+P0116,52.0,Male,Drug A,110.78,89.48,Yes,No
+P0117,48.0,Female,Drug A,114.94,88.87,Yes,No
+P0118,34.0,Male,Drug A,88.65,68.13,Yes,Yes
+P0119,62.0,Male,Drug A,78.67,37.96,Yes,No
+P0120,57.0,Female,Placebo,122.52,120.82,Yes,No
+P0121,57.0,Female,Drug A,95.16,58.22,Yes,No
+P0122,37.0,Female,Drug A,96.24,72.67,No,No
+P0123,65.0,Female,Placebo,119.92,118.11,Yes,No
+P0124,31.0,Female,Placebo,108.34,113.72,Yes,Yes
+P0125,55.0,Male,Placebo,106.84,85.61,Yes,No
+P0126,74.0,Male,Drug A,132.48,112.49,Yes,No
+P0127,36.0,Male,Drug A,90.35,47.34,Yes,No
+P0128,41.0,Female,Placebo,113.92,106.63,Yes,No
+P0129,49.0,Female,Drug A,100.86,67.98,No,No
+P0130,42.0,Male,Drug A,104.03,72.82,Yes,Yes
+P0131,29.0,Male,Drug A,122.93,96.25,Yes,No
+P0132,49.0,Female,Drug A,107.62,77.9,Yes,Yes
+P0133,35.0,Male,Drug A,108.07,,Yes,Yes
+P0134,54.0,Female,Drug A,116.09,98.57,Yes,No
+P0135,,Female,Placebo,94.53,82.24,No,No
+P0136,67.0,Female,Placebo,87.41,76.98,Yes,No
+P0137,39.0,Male,Placebo,84.33,59.02,No,No
+P0138,44.0,Female,Drug A,70.5,36.31,Yes,No
+P0139,,Female,Drug A,130.84,80.54,Yes,No
+P0140,33.0,Female,Drug A,83.45,55.59,Yes,No
+P0141,51.0,Female,Placebo,96.68,97.92,No,No
+P0142,64.0,Female,Placebo,95.85,,Yes,No
+P0143,29.0,Female,Drug A,104.61,67.31,No,No
+P0144,50.0,Male,Placebo,112.24,92.04,Yes,No
+P0145,,Female,Drug A,112.91,83.26,No,No
+P0146,57.0,Female,Placebo,91.25,79.51,Yes,No
+P0147,33.0,Male,Placebo,97.49,89.74,No,No
+P0148,32.0,Female,Placebo,104.24,90.54,No,No
+P0149,54.0,Female,Placebo,96.27,84.96,No,No
+P0150,52.0,Female,Placebo,124.11,122.37,Yes,No
+P0151,51.0,Male,Drug A,107.36,93.22,Yes,No
+P0152,52.0,Male,Placebo,111.02,84.95,Yes,No
+P0153,40.0,Female,Drug A,109.94,88.02,No,No
+P0154,51.0,Female,Placebo,117.6,121.41,No,No
+P0155,52.0,Male,Placebo,102.72,79.8,No,No
+P0156,39.0,Female,Placebo,80.55,77.45,Yes,No
+P0157,70.0,Female,Drug A,106.0,87.22,Yes,No
+P0158,54.0,Female,Placebo,90.23,82.86,Yes,No
+P0159,34.0,Female,Placebo,92.07,85.01,No,Yes
+P0160,56.0,Male,Placebo,108.8,96.46,No,No
+P0161,36.0,Male,Drug A,118.57,104.83,No,No
+P0162,57.0,Male,Drug A,100.32,74.81,Yes,No
+P0163,62.0,Female,Drug A,104.63,,Yes,No
+P0164,38.0,Male,Drug A,125.53,113.15,Yes,No
+P0165,60.0,Male,Placebo,103.61,92.94,Yes,No
+P0166,53.0,Male,Drug A,139.03,107.49,No,No
+P0167,58.0,Female,Placebo,108.48,105.3,No,Yes
+P0168,71.0,Female,Drug A,73.59,62.33,No,No
+P0169,45.0,Male,Drug A,111.3,64.94,No,No
+P0170,39.0,Male,Placebo,105.72,98.11,Yes,No
+P0171,37.0,Female,Placebo,119.35,114.35,Yes,Yes
+P0172,38.0,Male,Drug A,110.1,87.33,No,Yes
+P0173,47.0,Male,Placebo,97.92,88.68,Yes,Yes
+P0174,52.0,Male,Placebo,81.64,79.07,No,No
+P0175,51.0,Male,Drug A,96.86,77.07,Yes,No
+P0176,58.0,Male,Placebo,87.24,64.86,No,No
+P0177,48.0,Female,Placebo,91.29,89.98,No,No
+P0178,65.0,Male,Placebo,108.83,107.7,Yes,No
+P0179,45.0,Female,Drug A,125.05,98.08,Yes,Yes
+P0180,80.0,Male,Placebo,105.92,96.3,Yes,No
+P0181,56.0,Female,Drug A,82.06,55.11,Yes,No
+P0182,38.0,Female,Drug A,106.67,93.01,Yes,No
+P0183,35.0,Male,Drug A,117.95,98.89,Yes,No
+P0184,54.0,Female,Drug A,90.85,36.45,No,No
+P0185,45.0,Male,Placebo,97.99,80.13,No,No
+P0186,57.0,Female,Placebo,100.22,76.41,Yes,No
+P0187,54.0,Male,Placebo,88.23,81.27,Yes,No
+P0188,47.0,Male,Drug A,109.72,80.83,No,No
+P0189,38.0,Male,Drug A,98.19,84.43,Yes,No
+P0190,30.0,Female,Drug A,106.29,90.77,Yes,No
+P0191,43.0,Female,Placebo,86.69,63.3,Yes,No
+P0192,58.0,Female,Drug A,93.44,72.51,Yes,No
+P0193,51.0,Male,Placebo,110.84,94.78,Yes,No
+P0194,33.0,Female,Placebo,94.41,101.6,No,No
+P0195,50.0,Male,Drug A,125.9,94.63,Yes,No
+P0196,53.0,Female,Placebo,94.01,76.34,Yes,No
+P0197,37.0,Male,Drug A,103.37,87.9,Yes,Yes
+P0198,50.0,Male,Placebo,113.99,112.59,Yes,No
+P0199,49.0,Male,Placebo,78.72,64.85,No,Yes
+P0200,34.0,Male,Drug A,73.59,53.75,No,No
+P0201,52.0,Female,Drug A,77.12,45.71,No,No
+P0202,55.0,Male,Placebo,118.94,89.74,No,No
+P0203,61.0,Female,Placebo,91.72,81.58,No,No
+P0204,61.0,Male,Drug A,138.37,120.91,No,No
+P0205,31.0,Female,Placebo,91.54,76.61,No,No
+P0206,37.0,Male,Placebo,102.77,107.21,Yes,No
+P0207,54.0,Male,Placebo,123.13,100.56,Yes,No
+P0208,54.0,Female,Drug A,130.09,115.79,Yes,No
+P0209,54.0,Male,Placebo,130.92,118.13,No,No
+P0210,80.0,Male,Placebo,118.13,105.33,Yes,No
+P0211,55.0,Female,Drug A,115.36,88.73,Yes,No
+P0212,62.0,Female,Drug A,108.89,76.44,No,No
+P0213,59.0,Male,Placebo,111.68,107.39,No,No
+P0214,56.0,Male,Drug A,91.73,65.28,No,Yes
+P0215,44.0,Female,Placebo,87.73,74.42,Yes,No
+P0216,57.0,Male,Drug A,99.95,71.87,Yes,No
+P0217,39.0,Male,Drug A,97.45,53.51,Yes,Yes
+P0218,45.0,Male,Placebo,93.2,74.95,Yes,No
+P0219,42.0,Female,Drug A,110.45,85.46,Yes,No
+P0220,49.0,Female,Placebo,114.33,116.78,Yes,No
+P0221,76.0,Male,Drug A,101.33,,Yes,No
+P0222,26.0,Male,Placebo,122.16,98.94,No,No
+P0223,56.0,Male,Drug A,82.87,41.79,Yes,Yes
+P0224,29.0,Female,Drug A,97.1,64.47,No,No
+P0225,42.0,Male,Placebo,89.25,84.74,No,No
+P0226,61.0,Male,Drug A,72.0,37.6,Yes,No
+P0227,49.0,Female,Placebo,98.76,87.51,Yes,No
+P0228,35.0,Male,Drug A,98.17,,Yes,No
+P0229,39.0,Female,Placebo,122.7,113.56,No,No
+P0230,56.0,Male,Drug A,109.46,64.42,Yes,Yes
+P0231,39.0,Male,Placebo,84.64,72.34,Yes,No
+P0232,51.0,Male,Drug A,127.81,90.42,Yes,No
+P0233,49.0,Female,Drug A,118.32,93.92,Yes,No
+P0234,40.0,Female,Drug A,108.73,86.5,No,No
+P0235,74.0,Female,Drug A,96.6,85.21,Yes,Yes
+P0236,56.0,Male,Placebo,85.61,72.47,No,No
+P0237,24.0,Female,Drug A,94.42,39.22,Yes,No
+P0238,50.0,Male,Placebo,116.33,111.16,No,No
+P0239,40.0,Male,Drug A,128.27,121.28,No,No
+P0240,58.0,Female,Drug A,123.15,110.54,Yes,No
+P0241,38.0,Male,Placebo,92.67,103.24,No,No
+P0242,47.0,Male,Placebo,83.21,61.9,No,No
+P0243,54.0,Male,Drug A,102.11,85.18,Yes,Yes
+P0244,58.0,Male,Drug A,73.47,38.73,Yes,No
+P0245,34.0,Male,Drug A,104.85,84.61,Yes,No
+P0246,44.0,Female,Placebo,97.79,78.6,No,Yes
+P0247,42.0,Male,Placebo,93.01,78.84,No,No
+P0248,40.0,Female,Drug A,76.08,78.68,Yes,No
+P0249,69.0,Female,Placebo,107.7,107.46,No,No
+P0250,53.0,Male,Placebo,92.01,91.19,Yes,No
+P0251,33.0,Male,Placebo,82.45,59.99,Yes,No
+P0252,59.0,Male,Placebo,56.92,47.47,No,No
+P0253,73.0,Female,Drug A,99.59,67.64,Yes,No
+P0254,60.0,Male,Drug A,126.58,97.49,Yes,Yes
+P0255,30.0,Female,Drug A,124.92,94.68,Yes,No
+P0256,42.0,Male,Drug A,93.14,69.66,No,No
+P0257,63.0,Female,Placebo,90.97,105.24,Yes,No
+P0258,40.0,Male,Placebo,107.03,101.36,No,No
+P0259,53.0,Male,Drug A,85.02,60.02,Yes,Yes
+P0260,57.0,Female,Drug A,104.53,79.44,Yes,Yes
+P0261,37.0,Female,Drug A,111.49,83.21,Yes,No
+P0262,47.0,Male,Placebo,118.4,129.28,No,No
+P0263,18.0,Female,Drug A,98.5,81.75,Yes,Yes
+P0264,36.0,Female,Placebo,96.94,68.14,No,No
+P0265,45.0,Female,Drug A,86.83,55.25,No,No
+P0266,33.0,Female,Drug A,87.6,59.56,No,No
+P0267,68.0,Male,Placebo,96.6,77.92,Yes,No
+P0268,31.0,Male,Placebo,105.51,100.86,No,Yes
+P0269,43.0,Male,Drug A,113.7,83.94,Yes,No
+P0270,50.0,Female,Placebo,87.95,77.98,Yes,No
+P0271,65.0,Female,Placebo,122.39,115.67,Yes,No
+P0272,31.0,Male,Placebo,95.93,95.17,Yes,No
+P0273,62.0,Male,Drug A,99.68,83.19,Yes,No
+P0274,48.0,Female,Placebo,88.79,79.65,Yes,No
+P0275,36.0,Female,Drug A,63.64,42.54,Yes,Yes
+P0276,54.0,Female,Placebo,113.26,105.81,No,No
+P0277,50.0,Male,Drug A,111.05,88.7,Yes,No
+P0278,41.0,Male,Drug A,95.78,64.95,Yes,Yes
+P0279,49.0,Male,Drug A,101.0,51.61,Yes,No
+P0280,43.0,Female,Placebo,107.74,104.25,No,Yes
+P0281,49.0,Male,Drug A,76.56,65.79,No,No
+P0282,56.0,Female,Placebo,92.06,79.71,Yes,No
+P0283,67.0,Male,Placebo,111.91,102.29,Yes,No
+P0284,33.0,Female,Drug A,81.19,68.55,Yes,No
+P0285,74.0,Female,Placebo,104.4,91.4,No,No
+P0286,25.0,Female,Drug A,79.65,56.62,Yes,No
+P0287,46.0,Male,Placebo,107.0,123.21,Yes,No
+P0288,55.0,Male,Drug A,99.47,71.31,Yes,No
+P0289,51.0,Male,Placebo,75.77,80.41,Yes,Yes
+P0290,41.0,Female,Placebo,117.47,117.44,Yes,No
+P0291,46.0,Female,Placebo,88.98,81.79,No,Yes
+P0292,42.0,Female,Placebo,87.85,95.44,Yes,No
+P0293,41.0,Female,Drug A,103.01,78.02,Yes,No
+P0294,58.0,Female,Placebo,117.23,111.12,No,No
+P0295,52.0,Male,Placebo,84.76,74.23,No,No
+P0296,40.0,Female,Placebo,100.93,103.17,Yes,No
+P0297,59.0,Male,Drug A,106.43,75.92,Yes,No
+P0298,52.0,Male,Placebo,110.4,94.14,Yes,Yes
+P0299,58.0,Female,Placebo,102.65,79.46,No,No
+P0300,56.0,Male,Placebo,94.49,82.46,Yes,No
+P0301,38.0,Male,Drug A,87.59,58.06,No,No
+P0302,41.0,Female,Placebo,101.29,90.65,No,No
+P0303,57.0,Male,Drug A,83.92,,Yes,No
+P0304,55.0,Female,Placebo,56.18,41.61,Yes,Yes
+P0305,48.0,Male,Drug A,106.55,87.77,Yes,No
+P0306,49.0,Male,Placebo,113.56,104.14,Yes,No
+P0307,63.0,Male,Placebo,64.56,63.04,Yes,No
+P0308,41.0,Male,Drug A,84.85,59.09,Yes,No
+P0309,55.0,Female,Placebo,109.29,93.22,No,No
+P0310,46.0,Male,Drug A,130.86,95.14,Yes,No
+P0311,45.0,Female,Placebo,100.31,102.31,No,No
+P0312,61.0,Male,Placebo,89.08,74.16,Yes,No
+P0313,58.0,Female,Placebo,97.26,68.49,Yes,No
+P0314,58.0,Female,Placebo,120.62,116.82,Yes,No
+P0315,64.0,Female,Placebo,90.31,73.96,No,No
+P0316,48.0,Male,Drug A,88.01,74.26,No,No
+P0317,56.0,Male,Drug A,92.76,55.87,Yes,No
+P0318,44.0,Male,Placebo,85.7,73.85,Yes,No
+P0319,52.0,Female,Placebo,101.84,85.79,Yes,No
+P0320,46.0,Male,Placebo,124.37,92.31,No,No
+P0321,49.0,Female,Placebo,104.85,103.82,Yes,No
+P0322,55.0,Female,Drug A,96.21,77.24,No,No
+P0323,38.0,Male,Placebo,95.62,92.14,No,Yes
+P0324,73.0,Female,Drug A,76.55,49.92,Yes,No
+P0325,36.0,Male,Placebo,113.25,101.24,Yes,No
+P0326,33.0,Male,Drug A,98.83,63.81,Yes,No
+P0327,62.0,Female,Drug A,97.29,79.7,Yes,No
+P0328,57.0,Female,Drug A,147.9,117.77,Yes,No
+P0329,55.0,Female,Drug A,104.48,77.19,Yes,Yes
+P0330,56.0,Male,Placebo,88.72,79.54,No,No
+P0331,48.0,Male,Drug A,93.6,42.98,Yes,Yes
+P0332,37.0,Female,Drug A,117.23,90.32,Yes,No
+P0333,49.0,Female,Drug A,101.7,100.83,Yes,No
+P0334,40.0,Female,Drug A,78.43,61.28,Yes,No
+P0335,60.0,Male,Drug A,113.79,88.6,Yes,Yes
+P0336,46.0,Female,Drug A,89.98,62.35,No,No
+P0337,38.0,Male,Placebo,128.1,122.2,Yes,No
+P0338,44.0,Male,Placebo,116.2,97.59,Yes,No
+P0339,53.0,Female,Placebo,93.29,97.32,Yes,No
+P0340,41.0,Male,Drug A,119.22,105.36,No,No
+P0341,38.0,Female,Drug A,101.02,83.17,Yes,Yes
+P0342,51.0,Male,Placebo,112.79,98.0,Yes,No
+P0343,51.0,Male,Placebo,107.27,100.24,Yes,Yes
+P0344,42.0,Female,Drug A,87.3,62.5,No,Yes
+P0345,42.0,Female,Drug A,90.35,72.08,No,No
+P0346,51.0,Female,Drug A,115.45,96.37,Yes,No
+P0347,31.0,Female,Drug A,94.98,66.44,No,No
+P0348,31.0,Female,Drug A,93.95,63.21,No,No
+P0349,39.0,Female,Placebo,85.67,77.58,No,No
+P0350,45.0,Female,Placebo,106.35,105.76,No,Yes
+P0351,52.0,Male,Placebo,130.94,110.61,No,Yes
+P0352,66.0,Female,Placebo,83.99,77.97,Yes,Yes
+P0353,58.0,Male,Placebo,100.36,108.45,No,No
+P0354,46.0,Female,Placebo,121.18,109.0,No,No
+P0355,48.0,Female,Placebo,98.81,80.33,No,No
+P0356,36.0,Male,Drug A,106.79,84.23,Yes,Yes
+P0357,48.0,Female,Drug A,84.06,56.83,No,No
+P0358,45.0,Female,Drug A,106.42,96.32,No,No
+P0359,52.0,Male,Placebo,97.19,83.48,Yes,No
+P0360,38.0,Female,Placebo,114.79,90.73,No,Yes
+P0361,54.0,Female,Drug A,117.81,91.78,Yes,Yes
+P0362,,Male,Placebo,138.84,137.86,No,No
+P0363,47.0,Female,Drug A,108.69,81.93,Yes,Yes
+P0364,53.0,Male,Placebo,104.89,110.08,Yes,No
+P0365,56.0,Female,Drug A,102.92,78.13,No,No
+P0366,43.0,Female,Drug A,94.7,72.01,Yes,No
+P0367,51.0,Female,Drug A,105.08,67.48,No,No
+P0368,,Male,Drug A,95.57,64.41,Yes,No
+P0369,49.0,Female,Drug A,102.53,73.78,Yes,No
+P0370,39.0,Female,Drug A,119.76,91.58,Yes,Yes
+P0371,48.0,Male,Placebo,84.9,76.62,No,No
+P0372,54.0,Female,Placebo,117.1,112.63,Yes,No
+P0373,65.0,Male,Drug A,119.76,83.65,Yes,Yes
+P0374,60.0,Female,Placebo,98.23,79.28,Yes,Yes
+P0375,74.0,Male,Placebo,68.17,64.14,Yes,No
+P0376,39.0,Male,Drug A,90.88,77.28,No,No
+P0377,58.0,Male,Drug A,119.45,110.26,No,No
+P0378,50.0,Female,Drug A,99.66,64.51,Yes,No
+P0379,74.0,Male,Drug A,85.01,51.9,No,No
+P0380,38.0,Female,Placebo,92.43,70.1,Yes,Yes
+P0381,38.0,Male,Drug A,112.61,85.27,Yes,No
+P0382,41.0,Male,Placebo,108.2,104.46,No,No
+P0383,23.0,Female,Placebo,96.42,79.45,No,Yes
+P0384,42.0,Female,Drug A,94.5,68.74,Yes,No
+P0385,39.0,Male,Placebo,94.12,86.72,No,No
+P0386,50.0,Female,Drug A,86.16,62.68,Yes,No
+P0387,52.0,Female,Placebo,124.23,104.14,No,No
+P0388,71.0,Female,Drug A,95.17,91.07,Yes,No
+P0389,59.0,Male,Placebo,118.26,111.76,No,No
+P0390,41.0,Male,Placebo,122.82,97.17,No,Yes
+P0391,37.0,Female,Drug A,114.97,110.21,Yes,Yes
+P0392,54.0,Male,Placebo,93.53,80.9,Yes,No
+P0393,32.0,Female,Placebo,106.06,102.85,No,No
+P0394,70.0,Female,Placebo,99.64,86.62,Yes,No
+P0395,62.0,Female,Placebo,86.44,73.15,No,No
+P0396,42.0,Female,Placebo,104.87,102.19,Yes,No
+P0397,27.0,Female,Drug A,82.31,35.19,Yes,Yes
+P0398,64.0,Male,Drug A,117.82,108.15,Yes,No
+P0399,47.0,Female,Placebo,93.03,87.72,Yes,No
+P0400,63.0,Male,Drug A,103.02,75.35,Yes,No
+P0401,29.0,Male,Placebo,104.25,101.82,Yes,No
+P0402,41.0,Female,Placebo,96.12,92.24,Yes,No
+P0403,48.0,Female,Drug A,108.8,67.82,No,No
+P0404,49.0,Female,Drug A,92.88,72.5,No,No
+P0405,43.0,Female,Placebo,113.07,102.68,Yes,No
+P0406,55.0,Male,Drug A,79.81,41.18,Yes,No
+P0407,35.0,Male,Placebo,101.9,95.24,Yes,No
+P0408,46.0,Female,Drug A,129.08,97.46,Yes,No
+P0409,49.0,Male,Placebo,85.0,85.82,No,No
+P0410,54.0,Male,Drug A,89.83,65.02,Yes,No
+P0411,57.0,Male,Placebo,107.71,103.93,Yes,No
+P0412,35.0,Male,Drug A,102.69,82.57,Yes,No
+P0413,30.0,Male,Placebo,105.26,99.13,Yes,No
+P0414,63.0,Male,Drug A,107.34,80.43,No,No
+P0415,52.0,Male,Placebo,109.52,119.64,No,No
+P0416,39.0,Male,Placebo,116.65,116.89,Yes,No
+P0417,67.0,Female,Drug A,106.15,71.59,Yes,No
+P0418,49.0,Male,Drug A,96.38,76.1,No,Yes
+P0419,62.0,Male,Drug A,110.09,99.93,No,No
+P0420,49.0,Female,Placebo,128.5,118.74,Yes,No
+P0421,73.0,Male,Placebo,98.01,84.5,Yes,No
+P0422,69.0,Female,Placebo,85.38,91.01,Yes,No
+P0423,45.0,Female,Drug A,116.61,79.11,Yes,No
+P0424,60.0,Male,Drug A,98.19,79.24,Yes,No
+P0425,56.0,Male,Placebo,67.41,62.41,Yes,No
+P0426,64.0,Female,Drug A,112.71,83.19,Yes,Yes
+P0427,36.0,Female,Placebo,91.97,85.65,Yes,No
+P0428,56.0,Male,Drug A,98.64,76.3,No,No
+P0429,61.0,Female,Placebo,104.98,101.24,Yes,No
+P0430,27.0,Male,Drug A,102.86,77.2,Yes,Yes
+P0431,34.0,Female,Drug A,110.64,106.64,Yes,No
+P0432,24.0,Male,Placebo,93.47,84.71,Yes,No
+P0433,45.0,Female,Placebo,107.7,117.24,No,No
+P0434,57.0,Female,Placebo,96.11,81.05,No,No
+P0435,66.0,Female,Drug A,111.08,93.52,Yes,No
+P0436,49.0,Female,Drug A,109.23,82.42,Yes,No
+P0437,68.0,Male,Placebo,85.97,95.6,Yes,No
+P0438,31.0,Male,Placebo,116.29,106.33,No,No
+P0439,28.0,Male,Drug A,91.96,81.16,Yes,No
+P0440,47.0,Male,Drug A,112.12,81.12,Yes,No
+P0441,53.0,Female,Drug A,105.51,61.84,Yes,No
+P0442,48.0,Male,Placebo,127.57,112.72,Yes,No
+P0443,23.0,Male,Drug A,96.65,64.8,No,Yes
+P0444,47.0,Female,Drug A,94.76,77.67,No,No
+P0445,32.0,Female,Drug A,99.71,55.01,Yes,No
+P0446,56.0,Female,Drug A,95.45,79.38,Yes,No
+P0447,52.0,Female,Drug A,112.0,74.89,No,No
+P0448,37.0,Male,Placebo,75.76,60.45,No,No
+P0449,42.0,Male,Drug A,84.19,59.33,Yes,Yes
+P0450,35.0,Female,Placebo,83.98,77.4,Yes,No
+P0451,47.0,Female,Drug A,114.25,85.18,Yes,No
+P0452,59.0,Male,Placebo,125.66,124.2,No,No
+P0453,36.0,Female,Placebo,98.43,,Yes,No
+P0454,54.0,Male,Placebo,97.47,92.1,Yes,No
+P0455,42.0,Male,Placebo,101.05,91.49,No,No
+P0456,38.0,Female,Drug A,117.43,76.79,Yes,No
+P0457,47.0,Female,Drug A,86.09,77.26,Yes,No
+P0458,36.0,Female,Placebo,103.58,90.61,Yes,No
+P0459,41.0,Male,Placebo,114.63,107.04,Yes,No
+P0460,34.0,Female,Placebo,107.52,86.01,Yes,No
+P0461,72.0,Male,Placebo,102.84,96.7,No,No
+P0462,48.0,Male,Placebo,115.02,102.98,Yes,No
+P0463,40.0,Female,Drug A,59.45,33.17,Yes,No
+P0464,51.0,Female,Drug A,110.17,100.28,No,No
+P0465,47.0,Female,Placebo,90.19,75.53,No,No
+P0466,45.0,Female,Placebo,72.54,61.03,Yes,Yes
+P0467,55.0,Female,Drug A,107.67,70.15,Yes,No
+P0468,57.0,Female,Placebo,120.6,106.08,Yes,No
+P0469,42.0,Male,Drug A,97.94,81.81,Yes,No
+P0470,41.0,Male,Placebo,114.29,96.71,Yes,Yes
+P0471,45.0,Male,Drug A,124.18,73.14,Yes,No
+P0472,20.0,Male,Drug A,119.72,96.71,Yes,No
+P0473,30.0,Female,Placebo,124.6,120.9,Yes,No
+P0474,64.0,Female,Drug A,111.13,90.17,Yes,No
+P0475,68.0,Male,Placebo,101.13,100.08,No,Yes
+P0476,45.0,Male,Placebo,75.97,59.65,Yes,No
+P0477,55.0,Female,Placebo,96.31,88.84,No,No
+P0478,52.0,Male,Drug A,87.35,74.28,Yes,No
+P0479,80.0,Female,Drug A,132.56,89.77,No,No
+P0480,61.0,Female,Drug A,97.36,75.56,No,No
+P0481,46.0,Female,Placebo,101.85,86.69,Yes,No
+P0482,37.0,Female,Placebo,108.27,96.31,Yes,Yes
+P0483,29.0,Female,Placebo,100.65,88.59,Yes,No
+P0484,50.0,Male,Placebo,125.43,107.96,Yes,No
+P0485,39.0,Female,Placebo,90.66,78.89,No,No
+P0486,31.0,Female,Placebo,102.92,77.43,No,No
+P0487,40.0,Male,Drug A,88.86,52.99,Yes,No
+P0488,35.0,Female,Placebo,80.2,67.35,No,No
+P0489,68.0,Female,Drug A,90.82,72.61,Yes,No
+P0490,59.0,Female,Placebo,99.44,87.03,Yes,No
+P0491,48.0,Female,Placebo,93.56,82.94,No,No
+P0492,66.0,Female,Placebo,89.61,84.4,Yes,No
+P0493,49.0,Female,Drug A,78.91,36.65,Yes,No
+P0494,38.0,Female,Drug A,98.75,66.97,Yes,No
+P0495,66.0,Female,Drug A,77.43,64.37,Yes,No
+P0496,54.0,Female,Drug A,111.4,76.59,No,No
+P0497,36.0,Female,Drug A,101.24,71.6,Yes,No
+P0498,46.0,Female,Placebo,78.14,64.62,No,No
+P0499,37.0,Male,Placebo,95.36,77.66,No,No
+P0500,31.0,Female,Drug A,88.72,61.2,No,No
+P0362,,Male,Placebo,138.84,137.86,No,No
+P0074,67.0,Female,Drug A,108.69,91.8,Yes,No
+P0375,74.0,Male,Placebo,68.17,64.14,Yes,No
+P0156,39.0,Female,Placebo,80.55,77.45,Yes,No
+P0105,46.0,Male,Drug A,130.2,100.84,Yes,Yes
